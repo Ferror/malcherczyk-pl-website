@@ -19,3 +19,8 @@ p {
     letter-spacing: 0.05rem;
     word-spacing: 0.02rem;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: #374252;
+}
