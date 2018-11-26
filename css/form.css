@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > input {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #ECF0F1;
+    box-shadow: 0px 3px 0px #7F8C8D;
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+input[type=checkbox]:after {
+    cursor: pointer;
+    content: " ";
+    background-color: #fff;
+    display: inline-block;
+    color: #00BFF0;
+    width: 40px;
+    height: 40px;
+    visibility: visible;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.08), 0 0 2px 0 rgba(0,0,0,0.16);
+}
+
+input[type=checkbox]:checked:after {
+    width: 40px;
+    height: 40px;
+    content: "\2714";
+    display: block;
+    font-weight: bold;
+}
