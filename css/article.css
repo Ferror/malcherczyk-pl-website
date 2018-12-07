@@ -1,0 +1,27 @@
+article {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+}
+
+article > section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+article > section > header {
+    text-align: center;
+}
+
+article > section > p {
+    text-align: justify;
+}
+
+article > section > figure {
+    text-align: center;
+}
+
+article > section > figure > img {
+    width: 20rem;
+}
