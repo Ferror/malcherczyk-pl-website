@@ -1,0 +1,25 @@
+about {
+    --image-width: 20rem;
+    display: flex;
+}
+
+about > figure {
+    width: var(--image-width);
+    text-align: center;
+    padding: 0 1rem;
+}
+
+about > figure > img {
+    width: var(--image-width);
+}
+
+about > section {
+    width: calc(100% - var(--image-width));
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+about > section > p {
+    text-align: justify;
+}

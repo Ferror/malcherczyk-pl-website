@@ -1,27 +1,32 @@
 article {
     display:flex;
     justify-content: space-evenly;
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 
-article > section {
+article > column {
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
 }
 
-article > section > header {
+article > column > header {
     text-align: center;
 }
 
-article > section > p {
+article > column > p {
     text-align: justify;
 }
 
-article > section > figure {
+article > column > figure {
     text-align: center;
 }
 
-article > section > figure > img {
+article > column > figure > img {
     width: 20rem;
+    max-height: 30rem;
+}
+
+article > form {
+    width: 22rem;
 }

@@ -4,8 +4,13 @@
 @import "css/header.css";
 @import "css/form.css";
 @import "css/article.css";
+@import "css/about.css";
 @import "css/button.css";
 @import "css/footer.css";
+
+:root {
+    --global-font-color: #374252;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -14,7 +19,7 @@ body {
 }
 
 p {
-    color: #374252;
+    color: var(--global-font-color);
     font-size: 1.1rem;
     margin-top: 1.5rem;
     line-height: 1.4rem;
@@ -23,11 +28,11 @@ p {
 }
 
 a {
-    color: #374252;
+    color: var(--global-font-color);
     text-decoration: none;
 }
 
 a:hover {
+    color: var(--global-font-color);
     text-decoration: underline;
-    color: #374252;
 }
