@@ -14,6 +14,10 @@ form > input {
     margin-top: 1rem;
 }
 
+form > header {
+    text-align: center;
+}
+
 input[type=checkbox]:after {
     cursor: pointer;
     content: " ";
