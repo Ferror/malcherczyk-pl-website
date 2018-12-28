@@ -5,7 +5,7 @@ nav {
     flex-direction: column;
 }
 
-nav > figure > img {
+nav > figure > a > img {
     height: 12rem;
     border-radius: 50%;
 }
