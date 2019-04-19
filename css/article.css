@@ -12,6 +12,7 @@ article > column {
 
 article > column > header {
     text-align: center;
+    margin: 10px 0;
 }
 
 article > column > p {
@@ -23,7 +24,7 @@ article > column > figure {
 }
 
 article > column > figure > img {
-    width: 20rem;
+    width: 15rem;
     max-height: 30rem;
 }
 
