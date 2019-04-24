@@ -1,8 +1,8 @@
 {
     "name": "MZA",
     "short_name": "MZA",
-    "theme_color": "#fff",
-    "background_color": "#fff",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "fullscreen",
     "orientation": "portrait",
     "start_url": "index.html",
