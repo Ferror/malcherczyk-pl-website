@@ -53,9 +53,9 @@
             "type": "image/png"
         },
         {
-            "src": "assets/icons/512/icon_square_logo.svg",
+            "src": "assets/icons/512/icon_square_logo.png",
             "sizes": "512x512",
-            "type": "image/svg"
+            "type": "image/png"
         }
     ]
 }
