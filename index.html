@@ -1,7 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MZA</title>
         <link rel="stylesheet" href="framework.css">
         <link rel="icon" href="assets/icon_square_logo.ico">
@@ -138,5 +141,11 @@
         <footer>
             Created By <img src="assets/regular/copyright.svg" alt=""> <a href="https://github.com/ferror">Zbigniew (Ferror) Malcherczyk</a>
         </footer>
+
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/sw.js');
+            }
+        </script>
     </body>
 </html>
