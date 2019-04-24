@@ -28,6 +28,11 @@
             "type": "image/svg"
         },
         {
+            "src": "assets/icons/80/icon_square_logo.png",
+            "sizes": "80x80",
+            "type": "image/png"
+        },
+        {
             "src": "assets/icons/120/icon_square_logo.svg",
             "sizes": "120x120",
             "type": "image/svg"
