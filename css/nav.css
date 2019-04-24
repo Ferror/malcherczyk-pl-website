@@ -13,6 +13,7 @@ nav > figure > a > img {
 nav > ul {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav > ul > li {
