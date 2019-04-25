@@ -16,11 +16,11 @@ about > figure > img {
 }
 
 about > section {
-    width: calc(100% - var(--image-width));
+    width: calc(100% - var(--image-width) - 2rem);
     min-width: var(--image-width);
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    margin: 1rem;
 }
 
 about > section > p {
