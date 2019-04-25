@@ -13,9 +13,6 @@ var version = 'v1::';
 */
 var offlineFundamentals = [
     '/index.html',
-    '/about.html',
-    '/blog.html',
-    '/books.html',
     '/framework.css',
     '/assets/icons/180/icon_square_logo.png',
     '/assets/icon_square_logo.ico',
