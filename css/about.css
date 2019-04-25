@@ -1,12 +1,14 @@
 about {
     --image-width: 20rem;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 about > figure {
     width: var(--image-width);
     text-align: center;
-    padding: 0 1rem;
+    padding: 1rem 0;
 }
 
 about > figure > img {
@@ -15,9 +17,10 @@ about > figure > img {
 
 about > section {
     width: calc(100% - var(--image-width));
+    min-width: var(--image-width);
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
+    padding: 1rem 0;
 }
 
 about > section > p {
