@@ -16,7 +16,7 @@ about > figure > img {
 }
 
 about > section {
-    width: calc(100% - var(--image-width) - 2rem);
+    max-width: calc(100% - var(--image-width) - 2rem);
     min-width: calc(var(--image-width) - 2rem);
     display: flex;
     flex-direction: column;
