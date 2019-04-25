@@ -34,4 +34,5 @@ article > column > figure > img {
 
 article > form {
     width: 22rem;
+    margin: 0 1rem;
 }
