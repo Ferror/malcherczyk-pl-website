@@ -13,8 +13,8 @@ var version = 'v1::';
 */
 var offlineFundamentals = [
     '',
-    'framework.css',
-    'about.html'
+    '/framework.css',
+    '/about.html'
 ];
 
 /* The install event fires when the service worker is first installed.
