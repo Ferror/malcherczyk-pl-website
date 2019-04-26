@@ -15,7 +15,8 @@ var offlineFundamentals = [
     '/index.html',
     '/framework.css',
     '/assets/icons/180/icon_square_logo.png',
-    '/assets/icon_square_logo.ico',
+    '/assets/favicon-16x16.ico',
+    '/assets/favicon-32x32.ico',
 ];
 
 /* The install event fires when the service worker is first installed.
