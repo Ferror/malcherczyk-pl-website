@@ -10,6 +10,10 @@
 
 :root {
     --global-font-color: #374252;
+    --global-form-background-color: #ECF0F1;
+    --global-form-background-color-active: #DCE0E1;
+    --global-form-shadow-color: 0 3px 0 #7F8C8D;
+    --global-form-shadow-color-active: 0 1px 0 #7F8C8D;
     font-size: 16px;
 }
 

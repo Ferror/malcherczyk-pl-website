@@ -3,12 +3,13 @@ form {
     flex-direction: column;
 }
 
-form > input, form > label > input {
+form > input {
     border-radius: 5px;
     outline: none;
     border: none;
-    background: #ECF0F1;
-    box-shadow: 0 1px 0 #7F8C8D;
+    background: var(--global-form-background-color);
+    box-shadow: var(--global-form-shadow-color);
+    color: var(--global-font-color);
     padding: 0.7rem;
     font-size: 1rem;
     margin-top: 1rem;

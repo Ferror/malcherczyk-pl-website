@@ -7,21 +7,23 @@ button {
     border-radius: 5px;
     outline: none;
     border: none;
-    background: #ECF0F1;
-    box-shadow: 0 3px 0 #7F8C8D;
+    background: var(--global-form-background-color);
+    box-shadow: var(--global-form-shadow-color);
     margin-top: 1rem;
 }
 
 button:hover {
     background: #E9ECED;
+    cursor: pointer;
 }
 
 button:disabled {
-    opacity: 0.6;
+    opacity: 0.75;
+    cursor: not-allowed;
 }
 
 button:active {
-    background: #DCe0E1;
-    box-shadow: 0 1px 0 #7F8C8D;
+    background: var(--global-form-background-color-active);
+    box-shadow: var(--global-form-shadow-color-active);
     transform: translateY(2px);
 }
