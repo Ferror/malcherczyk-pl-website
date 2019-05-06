@@ -19,7 +19,7 @@ article > column > header {
 }
 
 article > column > p {
-    text-align: justify;
+    text-align: justify-all;
 }
 
 article > column > figure {

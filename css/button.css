@@ -16,6 +16,10 @@ button:hover {
     background: #E9ECED;
 }
 
+button:disabled {
+    opacity: 0.6;
+}
+
 button:active {
     background: #DCe0E1;
     box-shadow: 0 1px 0 #7F8C8D;

@@ -132,8 +132,9 @@
                     <header>
                         <h3>Some Form Header</h3>
                     </header>
-                    <input type="email" placeholder="email">
-                    <button type="submit">Button Submit</button>
+                    <label for="newsletter"></label>
+                    <input type="email" placeholder="email" title="newsletter">
+                    <button type="submit" disabled>Button Submit</button>
                 </form>
             </article>
         </main>
@@ -143,7 +144,7 @@
 
         <script>
             (function () {
-                if('serviceWorker' in navigator) {
+                if ('serviceWorker' in navigator) {
                     window.addEventListener('load', function() {
                         console.log('CLIENT: service worker registration in progress.');
                         navigator.serviceWorker.register('service-worker.js').then(function() {
@@ -155,6 +156,15 @@
                 } else {
                     console.log('CLIENT: service worker is not supported.');
                 }
+            })();
+            (function () {
+                document.querySelector('form > input').addEventListener('keyup', function () {
+                    if (document.querySelector('form > input').value.length > 0) {
+                        document.querySelector('form > button').disabled = false;
+                    } else {
+                        document.querySelector('form > button').disabled = true;
+                    }
+                })
             })();
         </script>
     </body>
