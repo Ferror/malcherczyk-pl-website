@@ -15,28 +15,52 @@ form > input {
     margin-top: 1rem;
 }
 
+form > input:focus {
+    box-shadow: var(--global-form-shadow-color-active);
+}
+
+form > input:valid {
+    box-shadow: var(--global-form-shadow-color-active);
+}
+
+form > input::placeholder {
+    color: var(--global-form-font-color);
+}
+
 form > header {
     text-align: center;
 }
 
+input:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
 input[type=checkbox]:after {
     cursor: pointer;
-    content: " ";
-    background-color: #fff;
+    content: "\2714";
+    color: var(--global-form-font-color);
     display: inline-block;
-    color: #00BFF0;
-    width: 40px;
-    height: 40px;
+    background: var(--global-form-background-color);
+    box-shadow: var(--global-form-shadow-color);
+    width: 20px;
+    height: 20px;
     visibility: visible;
-    border: 1px solid #FFF;
     border-radius: 5px;
-    box-shadow: 0 0 15px 0 rgba(0,0,0,0.08), 0 0 2px 0 rgba(0,0,0,0.16);
+    top: -3px;
+    left: -3px;
+    position: relative;
+    text-align: center;
 }
 
 input[type=checkbox]:checked:after {
-    width: 40px;
-    height: 40px;
     content: "\2714";
+    color: var(--global-font-color);
+    box-shadow: var(--global-form-shadow-color-active);
     display: block;
-    font-weight: bold;
+    opacity: 1;
 }

@@ -1,6 +1,6 @@
 button {
     padding: .7rem;
-    color: #7F8C8D;
+    color: var(--global-form-font-color);
     font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
@@ -23,7 +23,7 @@ button:disabled {
 }
 
 button:active {
-    background: var(--global-form-background-color-active);
+    background: var(--global-form-background-color);
     box-shadow: var(--global-form-shadow-color-active);
     transform: translateY(2px);
 }
