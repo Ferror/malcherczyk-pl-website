@@ -9,7 +9,7 @@ button {
     border: none;
     background: var(--global-form-background-color);
     box-shadow: var(--global-form-shadow-color);
-    margin-top: 1rem;
+    margin: 1rem .5rem 0 .5rem;
 }
 
 button:hover {

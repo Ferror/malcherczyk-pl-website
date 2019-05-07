@@ -22,7 +22,3 @@ about > section {
     flex-direction: column;
     margin: 1rem;
 }
-
-about > section > p {
-    text-align: justify;
-}
