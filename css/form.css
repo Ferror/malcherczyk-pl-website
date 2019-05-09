@@ -41,7 +41,6 @@ input:disabled {
 }
 
 input[type=checkbox] {
-    visibility: hidden;
     width: 24px;
     height: 24px;
     margin: 1rem .5rem 0 .5rem;
@@ -49,7 +48,7 @@ input[type=checkbox] {
 
 input[type=checkbox]:after {
     cursor: pointer;
-    content: "\2714";
+    content: "\2713";
     color: var(--global-form-font-color);
     display: inline-block;
     background: var(--global-form-background-color);
@@ -63,10 +62,9 @@ input[type=checkbox]:after {
 }
 
 input[type=checkbox]:checked:after {
-    content: "\2714";
     color: var(--global-font-color);
     box-shadow: var(--global-form-shadow-color-active);
-    display: block;
+    display: inline-block;
     opacity: 1;
     transform: translateY(2px);
 }
