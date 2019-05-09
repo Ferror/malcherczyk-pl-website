@@ -2,7 +2,7 @@ button {
     padding: .7rem;
     color: var(--global-form-font-color);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     border-radius: 5px;
     outline: none;

@@ -11,7 +11,7 @@ form > input {
     box-shadow: var(--global-form-shadow-color);
     color: var(--global-font-color);
     padding: 0.7rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 1rem .5rem 0 .5rem;
 }
 
@@ -21,6 +21,11 @@ form > input:focus {
 
 form > input:valid {
     box-shadow: var(--global-form-shadow-color-active);
+    background-color: #2ecc71a6;
+}
+
+form > input:invalid {
+    background-color: #e74c3ca6;
 }
 
 form > input::placeholder {
@@ -58,12 +63,13 @@ input[type=checkbox]:after {
     visibility: visible;
     border-radius: 5px;
     text-align: center;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
 }
 
 input[type=checkbox]:checked:after {
     color: var(--global-font-color);
     box-shadow: var(--global-form-shadow-color-active);
+    font-weight: bold;
     display: inline-block;
     opacity: 1;
     transform: translateY(2px);
