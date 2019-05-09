@@ -19,12 +19,12 @@ form > input:focus {
     box-shadow: var(--global-form-shadow-color-active);
 }
 
-form > input:valid {
+form > input:required:valid {
     box-shadow: var(--global-form-shadow-color-active);
     background-color: #2ecc71a6;
 }
 
-form > input:invalid {
+form > input:required:invalid {
     background-color: #e74c3ca6;
 }
 
