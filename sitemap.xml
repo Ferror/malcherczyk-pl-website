@@ -5,26 +5,34 @@
 >
     <url>
         <loc>https://malcherczyk.pl/</loc>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://malcherczyk.pl/projects</loc>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>https://malcherczyk.pl/about</loc>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://malcherczyk.pl/lego</loc>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>https://malcherczyk.pl/books</loc>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>https://malcherczyk.pl/raspberry</loc>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>https://malcherczyk.pl/development</loc>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>https://malcherczyk.pl/blog</loc>
+        <priority>0.80</priority>
     </url>
 </urlset>
