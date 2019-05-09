@@ -16,6 +16,7 @@ form > input {
 }
 
 form > input:focus {
+    background: var(--global-form-background-color);
     box-shadow: var(--global-form-shadow-color-active);
 }
 
