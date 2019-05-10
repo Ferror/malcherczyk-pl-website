@@ -16,17 +16,17 @@ form > input {
 }
 
 form > input:focus {
-    background: var(--global-form-background-color);
+    /*background: var(--global-form-background-color);*/
     box-shadow: var(--global-form-shadow-color-active);
 }
 
 form > input:required:valid {
     box-shadow: var(--global-form-shadow-color-active);
-    background-color: #2ecc71a6;
+    /*background-color: #2ecc71a6;*/
 }
 
 form > input:required:invalid {
-    background-color: #e74c3ca6;
+    /*background-color: #e74c3ca6;*/
 }
 
 form > input::placeholder {
@@ -47,9 +47,10 @@ input:disabled {
 }
 
 input[type=checkbox] {
-    width: 24px;
-    height: 24px;
+    width: 1.25rem;
+    height: 1.25rem;
     margin: 1rem .5rem 0 .5rem;
+    cursor: pointer;
 }
 
 input[type=checkbox]:after {
@@ -65,6 +66,9 @@ input[type=checkbox]:after {
     border-radius: 5px;
     text-align: center;
     font-size: 1.2rem;
+    top: -2px;
+    left: -2px;
+    position: relative;
 }
 
 input[type=checkbox]:checked:after {

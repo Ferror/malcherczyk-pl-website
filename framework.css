@@ -37,6 +37,7 @@ p {
 a {
     color: var(--global-font-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {

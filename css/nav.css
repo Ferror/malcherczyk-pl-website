@@ -6,7 +6,7 @@ nav {
 }
 
 nav > figure > a > img {
-    height: 12rem;
+    max-height: 12rem;
     border-radius: 50%;
 }
 

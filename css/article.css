@@ -28,8 +28,7 @@ article > column > figure {
 }
 
 article > column > figure > img {
-    width: 15rem;
-    max-height: 30rem;
+    max-width: 15rem;
 }
 
 article > form {
