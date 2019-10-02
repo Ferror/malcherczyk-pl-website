@@ -140,23 +140,25 @@
                     </article>
                 </column>
             </temple>
+
+            <form method="post" action="https://form.malcherczyk.com">
+                <header>
+                    <h4>Sign up for website updates</h4>
+                </header>
+                <label>
+                    <input type="text" name="_gotcha">
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="lead_email" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </label>
+                <label>
+                    <input type="checkbox" name="lead_terms" value="I want to receive website updates email" required> I want to receive website updates email
+                </label>
+                <input type="hidden" name="_next" value="https://malcherczyk.pl"/>
+                <input type="submit" disabled>
+            </form>
         </main>
-        <form action="https://form.malcherczyk.com">
-            <header>
-                <h2>Some Form Header</h2>
-            </header>
-            <label>
-                Email
-                <input type="email" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-            </label>
-            <label>
-                <input type="checkbox" required>
-                I want to receive emails from Ferror
-            </label>
-            <label>
-                <input type="submit" value="Submit">
-            </label>
-        </form>
         <footer>
             Created By <img src="https://assets.malcherczyk.com/icons/copyright.svg" alt="copyright icon"> <a href="https://github.com/ferror">Zbigniew (Ferror) Malcherczyk</a>
         </footer>
