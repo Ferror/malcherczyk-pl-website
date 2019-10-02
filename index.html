@@ -179,6 +179,11 @@
             })();
             */
             (function () {
+                document.querySelector('input[type=email]').addEventListener('keyup', function () {
+                    document.querySelector('input[type=submit]').disabled = document.querySelector('input[type=email]').value.length <= 0;
+                })
+            })();
+            (function () {
                 let darkModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/3.0/grave-dark.min.css';
                 let lightModeUrl = 'https://cdn.jsdelivr.net/gh/ferror/grave@gh-pages/3.0/grave.min.css';
 
